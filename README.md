@@ -28,7 +28,8 @@ A technical task from "Labinvent" JSC.
 When user opens `index.html` he should see a network settings page. Fields contains last saved data. 
 Data must be persist in local storage or node.js server(advanced option).
 
-![network settings page by default](network_settings.png)
+![network_settings](https://user-images.githubusercontent.com/35889544/56999561-4e1a1f00-6bb8-11e9-9070-c8fc089b55f2.png)
+
 
 All form fields are for the text input. The **"Wireless Network Name"** field is an exception. It should be a drop-down menu.
 
@@ -45,7 +46,7 @@ Field **"Wireless Network Name"** lists all available access points.
 All points should be sorted by *__strength__*. Access points with *__favorite__* flag = `true`, should be shown on the top of the list.
 Pressing **"&#x21bb;"** button sends new request to refresh access points list.
 
-![network settings page by default](network_settings_wifi_enabled.png)
+![network_settings_wifi_enabled](https://user-images.githubusercontent.com/35889544/56999576-625e1c00-6bb8-11e9-8ad6-ebe230cf7254.png)
 
 When **"Save"** button pressed the configuration should be validated and saved in local storage or node.js server(advanced option).
 
