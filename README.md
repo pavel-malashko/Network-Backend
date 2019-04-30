@@ -10,9 +10,12 @@
 
 - npm install
 
+- run MongoDB server
+
 - npm run build-start
 
 - npm start (after build project)
+
 
 
 
